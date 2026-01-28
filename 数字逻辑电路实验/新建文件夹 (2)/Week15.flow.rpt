@@ -1,0 +1,124 @@
+Flow report for Week15
+Wed May 28 13:35:04 2025
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------+
+; Flow Summary                                                                      ;
++------------------------------------+----------------------------------------------+
+; Flow Status                        ; Successful - Wed May 28 13:35:04 2025        ;
+; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
+; Revision Name                      ; Week15                                       ;
+; Top-level Entity Name              ; Countdown                                    ;
+; Family                             ; Cyclone IV E                                 ;
+; Device                             ; EP4CE6F17C8                                  ;
+; Timing Models                      ; Preliminary                                  ;
+; Met timing requirements            ; N/A                                          ;
+; Total logic elements               ; 15 / 6,272 ( < 1 % )                         ;
+;     Total combinational functions  ; 15 / 6,272 ( < 1 % )                         ;
+;     Dedicated logic registers      ; 8 / 6,272 ( < 1 % )                          ;
+; Total registers                    ; 8                                            ;
+; Total pins                         ; 21 / 180 ( 12 % )                            ;
+; Total virtual pins                 ; 0                                            ;
+; Total memory bits                  ; 0 / 276,480 ( 0 % )                          ;
+; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                               ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                ;
++------------------------------------+----------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/28/2025 13:35:00 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Week15              ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                             ;
++------------------------------------+------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                    ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 206776701170837.174841050004776          ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                       ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; C:/Users/ASUS/Desktop/ShuDian/Week15.dpf ; --            ; --          ; --             ;
+; MISC_FILE                          ; C:/Users/ASUS/Desktop/Q1/Week15.dpf      ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE        ; 1.2V                                     ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                 ; --            ; Countdown   ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                   ; --            ; Countdown   ; Top            ;
+; TOP_LEVEL_ENTITY                   ; Countdown                                ; Week15        ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                      ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+------------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:00     ; 1.0                     ; 233 MB              ; 00:00:01                           ;
+; Fitter                    ; 00:00:02     ; 1.0                     ; 294 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:00     ; 1.0                     ; 264 MB              ; 00:00:01                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 228 MB              ; 00:00:00                           ;
+; Total                     ; 00:00:02     ; --                      ; --                  ; 00:00:04                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                            ;
++---------------------------+------------------+---------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++---------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis      ; Hiraman          ; Windows Vista ; 6.2        ; x86_64         ;
+; Fitter                    ; Hiraman          ; Windows Vista ; 6.2        ; x86_64         ;
+; Assembler                 ; Hiraman          ; Windows Vista ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Hiraman          ; Windows Vista ; 6.2        ; x86_64         ;
++---------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Week15 -c Week15
+quartus_fit --read_settings_files=off --write_settings_files=off Week15 -c Week15
+quartus_asm --read_settings_files=off --write_settings_files=off Week15 -c Week15
+quartus_sta Week15 -c Week15
+
+
+

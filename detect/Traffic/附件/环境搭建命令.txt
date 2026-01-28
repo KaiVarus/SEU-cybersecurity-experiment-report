@@ -1,0 +1,11 @@
+首先安装conda，pycharm（建议使用2022年的老版本，容易添加解释器）
+
+管理员方式打开anaconda prompt
+
+conda create -n yolo python=3.8
+
+conda activate yolo
+
+pip install opencv-python==4.4.0.44  pillow==8.2 numpy==1.23  matplotlib scipy  pandas scikit-learn   tqdm  imutils PyYAML  protobuf==3.20  seaborn  psutil thop tensorboard ipython  gitpython  setuptools==59.5.0  hub_sdk pyqt5-sip==12.15 labelimg==1.8.6  torchvision==0.16 -i https://pypi.tuna.tsinghua.edu.cn/simple/
+
+然后pycharm打开项目，添加解释器，运行代码
